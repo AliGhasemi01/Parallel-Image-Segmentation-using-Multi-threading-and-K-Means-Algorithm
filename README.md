@@ -59,12 +59,9 @@ cd parallel-kmeans-image-segmentation
 
 2. Ensure you have an image (e.g., `dog-pic.jpg`) in the same directory, or provide a path to any image you want to segment.
 
-3. Run the Jupyter Notebook or Python script that performs the image segmentation. For example, in Jupyter Notebook, run the following command:
-
-```python
-parallel_kmeans('dog-pic.jpg', k=3, num_parts=4, output_file='segmented_dog.jpg')
-```
+3. Run the Jupyter Notebook or Python script that performs the image segmentation.
 
 4. After running, the script will:
-   - Display the original and segmented images side by side.
+   - Display the original and segmented images using parallel k-means and normal k-means side by side.
+   - Compare the running time for parallel and normal k-means and display them.
    - Save the segmented image (e.g., `segmented_dog.jpg`) in the same directory.
